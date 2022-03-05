@@ -1,0 +1,19 @@
+@import url('https://fonts.googleapis.com/css2?family=Martel:wght@400;600&family=Poppins&display=swap');
+.about{
+    background-color: #f7e7db;
+    height: 621px;
+    padding-top: 56px;
+}
+.about h1{
+    font-family: 'Martel', serif;
+    font-weight: normal;
+    font-size: 56px;
+    line-height: 64px;
+    color: #120e0e;
+}
+.about p{
+    font-family: 'Poppins', sans-serif;
+    font-weight: normal;
+    font-size: 24px;
+    color: #120e0e;
+}

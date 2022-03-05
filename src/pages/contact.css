@@ -1,0 +1,25 @@
+@import url('https://fonts.googleapis.com/css2?family=Martel:wght@400;600&family=Poppins&display=swap');
+.contact{
+    background-color: #f7e7db;
+    padding-top: 56px;
+    padding-bottom: 56px;
+}
+.contact h1{
+    font-family: 'Martel', serif;
+    font-weight: normal;
+    font-size: 48px;
+    line-height: 56px;
+    color: #120e0e;
+}
+.box{
+    border: solid;
+    border-width: 0 0 2px 0;
+    color: #120e0e;
+}
+.contact p{
+    font-family: 'Poppins', sans-serif;
+    font-weight: normal;
+    font-size: 24px;
+    padding: 24px 0 24px 0;
+    color: #120e0e;
+}

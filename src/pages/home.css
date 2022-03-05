@@ -1,0 +1,226 @@
+@import url('https://fonts.googleapis.com/css2?family=Martel:wght@400;600&family=Poppins&display=swap');
+.home{
+    background-color: #f7e7db;
+    scroll-behavior: smooth;
+}
+.home .container{
+    padding-top: 0px;
+    padding-bottom: 0px;
+}
+.hero{
+    width: 100%;
+    height: 561px;
+    display: flex;
+}
+.hero h1{
+    margin-top: 48px;
+    width: 550px;
+    font-family: 'Martel', serif;
+    font-weight: normal;
+    font-size: 64px;
+    line-height: 72px;
+}
+.hero .content{
+    position: relative;
+    margin-left: 50px;
+    padding-left: 24px;
+}
+.hero .image{
+    margin-left: -160px;
+}
+.button1{
+    margin-top: 24px;
+    display: flex;
+    align-items: center;
+    gap: 16px;
+    color: #120e0e;
+    text-decoration: none;
+}
+.button1:hover{
+    color: #120e0e;
+}
+.button1 h3{
+    font-family: 'Poppins', sans-serif;
+    font-weight: normal;
+    font-size: 24px;
+}
+.hero .rectangle{
+    margin-top: 32px;
+    border: 1px solid;
+    border-left: 0;
+    border-color: #120e0e;
+    width: 550px;
+    height: 129px;
+    background-color: #f7e7db;
+    
+}  
+.hero h4{
+    font-family: 'Poppins', sans-serif;
+    font-weight: normal;
+    font-size: 16px;
+    padding-top: 16px;
+}
+.cottages{
+    margin-top: 56px;
+}
+.cottages .line1{
+    font-family: 'Martel', serif;
+    font-weight: normal;
+    font-size: 48px;
+    line-height: 64px;
+    color: #120e0e;
+}
+.cottages .line2{
+    font-family: 'Martel', serif;
+    font-weight: normal;
+    font-size: 48px;
+    line-height: 64px;
+    color: #b76536;
+}
+.cottages h4{
+    font-family: 'Poppins', sans-serif;
+    font-weight: normal;
+    font-size: 16px;
+}
+.cottages-type{
+    margin-top: 32px;
+}
+.cottages .card-body{
+    display: flex;
+    justify-content: space-between;
+    background-color: #fab67d;
+    border: 1px solid;
+    border-color: #120e0e;
+    color: #120e0e;
+}
+.cottages-name h4{
+    font-family: 'Martel', serif;
+    font-weight: normal;
+    font-size: 24px;
+}
+.cottages-name h5{
+    font-family: 'Poppins', sans-serif;
+    font-weight: normal;
+    font-size: 16px
+}
+.cottages-price h4{
+    font-family: 'Martel', serif;
+    font-weight: normal;
+    font-size: 16px;
+}
+.information{
+   margin-top: 56px; 
+}
+.information h3{
+    font-family: 'Martel', serif;
+    font-weight: normal;
+    font-size: 48px;
+    line-height: 56px;
+    width: 788px;
+    color: #120e0e;
+}
+.information .information-list{
+    background: linear-gradient(39.01deg, #E4CAB5 0%, #FDF5EF 100%);
+    width: 100%;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.25);
+    margin-top: 56px;
+}
+.information .card-body{
+    padding-top: 68px;
+    padding-bottom: 68px;
+    padding-left: 16px;
+    color: #120e0e;
+}
+.information .card-body img{
+    margin-bottom: 32px;
+}
+.information .card-body h4{
+    margin-bottom: 16px;
+    font-family: 'Martel', serif;
+    font-weight: normal;
+    font-size: 32px;
+    line-height: 40px;
+}
+.information-content p{
+    font-family: 'Poppins', sans-serif;
+    font-weight: normal;
+    font-size: 16px;
+    width: 272px;
+}
+.facility{
+    margin-top: 56px;
+    background: linear-gradient(109.02deg, #F66616 -5.15%, #120E0E 16.81%, #000000 82.72%, #F66616 109.19%);
+    width: 100%;
+}
+.facility .row{
+    padding-top: 99px;
+    padding-bottom: 98px;
+}
+.facility h3{
+    font-family: 'Martel', serif;
+    font-weight: normal;
+    font-size: 48px;
+    line-height: 56px;
+    margin-bottom: 24px;
+    color: #Fff;
+}
+.facility p{
+    font-family: 'Poppins', sans-serif;
+    font-weight: normal;
+    font-size: 16px;
+    color: #Fff;
+    margin-bottom: 0;
+}
+.facility .icon{
+    margin-top: 24px;
+    display: flex;
+    gap: 56px;
+}
+.facility .icon-flex{
+    display: flex;
+    gap: 8px;
+    margin-bottom: 8px;
+    align-items: center;
+}
+.food-menu{
+    height: 621px;
+    margin-top: 88px;
+}
+.food-menu h3{
+    font-family: 'Martel', serif;
+    font-weight: normal;
+    font-size: 48px;
+    line-height: 56px;
+    color: #120e0e;
+}
+.food-menu p{
+    font-family: 'Poppins', sans-serif;
+    font-weight: normal;
+    font-size: 16px;
+    margin-top: 16px;
+    color: #120e0e;
+}
+.food-menu .button1{
+    margin-top: 40px;
+}
+.food-menu .button1 h3{
+    font-family: 'Poppins', sans-serif;
+    font-weight: normal;
+    font-size: 24px;
+}
+.testimoni h3{
+    font-family: 'Martel', serif;
+    font-weight: normal;
+    font-size: 48px;
+    line-height: 56px;
+    color: #120e0e;
+}
+.testimoni{
+    height: 621px;
+}
+.testimoni .col-5{
+    margin-left: 30px;
+}
+.testimoni .row{
+    margin-top:64px;
+}
